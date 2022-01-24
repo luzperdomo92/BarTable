@@ -16,9 +16,7 @@ const Header = ({
               <h1 className="logo me-auto me-lg-0">BarTable</h1>
             </Link>
           </div>
-          <div className="col col-md-8">
-            {children}
-          </div>
+          <div className="col col-md-8">{children}</div>
         </div>
       </div>
     </header>

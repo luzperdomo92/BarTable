@@ -39,35 +39,36 @@ const Form = () => {
   };
 
   return (
-    <form className="row mt-3 mt-md-0 g-2 gy-md-0 text-center" onSubmit={submitForm}>
-
-        <div className="col-sm-6 col-md-4 col-lg-4">
-          <input
-            className="input-form form-control form-control-dark me-2"
-            type="text"
-            placeholder="Search by Name"
-            aria-label="Search by Name"
-            name="name"
-            value={inputSearchCocktail.name}
-            onChange={updateSearchValues}
-          />
-        </div>
-        <div className="col-sm-6 col-md-4 col-lg-5">
-          <input
-            className="input-form form-control form-control-dark me-2"
-            type="text"
-            placeholder="Search by Ingredient"
-            name="ingredient"
-            value={inputSearchCocktail.ingredient}
-            onChange={updateSearchValues}
-          />
-        </div>
-        <div className="col text-lg-end">
-          <button className="btn-form animated fadeInUp scrollto" type="submit">
-            Search
-          </button>
-        </div>
-
+    <form
+      className="row mt-3 mt-md-0 g-2 gy-md-0 text-center"
+      onSubmit={submitForm}
+    >
+      <div className="col-sm-6 col-md-4 col-lg-4">
+        <input
+          className="input-form form-control form-control-dark me-2"
+          type="text"
+          placeholder="Search by Name"
+          aria-label="Search by Name"
+          name="name"
+          value={inputSearchCocktail.name}
+          onChange={updateSearchValues}
+        />
+      </div>
+      <div className="col-sm-6 col-md-4 col-lg-5">
+        <input
+          className="input-form form-control form-control-dark me-2"
+          type="text"
+          placeholder="Search by Ingredient"
+          name="ingredient"
+          value={inputSearchCocktail.ingredient}
+          onChange={updateSearchValues}
+        />
+      </div>
+      <div className="col text-lg-end">
+        <button className="btn-form animated fadeInUp scrollto" type="submit">
+          Search
+        </button>
+      </div>
     </form>
   );
 };

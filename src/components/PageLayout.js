@@ -11,8 +11,10 @@ const Layout = () => {
         <Form />
       </Header>
 
-      <section>
-        <Outlet />
+      <section className="container-xl render-section">
+        <div className="container">
+          <Outlet />
+        </div>
       </section>
 
       <Footer />

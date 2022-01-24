@@ -1,5 +1,5 @@
-import React from 'react'
-import Form from './components/Form';
+import React from "react";
+import Form from "./components/Form";
 
 const WelcomePage = () => {
   return (
@@ -7,16 +7,17 @@ const WelcomePage = () => {
       <div className="container position-relative text-center text-lg-start">
         <div className="row">
           <div className="col-lg-8">
-            <h1>What <span>Cocktail</span> Would you like drink today ?</h1>
+            <h1>
+              What <span>Cocktail</span> Would you like drink today ?
+            </h1>
             <div className="py-4">
-              <Form/>
+              <Form />
             </div>
           </div>
         </div>
       </div>
     </section>
-
-  )
-}
+  );
+};
 
 export default WelcomePage;
