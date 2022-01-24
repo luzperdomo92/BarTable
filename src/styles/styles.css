@@ -266,4 +266,19 @@ section {
 /*Footer*/
 .footer {
   background: rgba(12, 11, 9, 1);
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
 }

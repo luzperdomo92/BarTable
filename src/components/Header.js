@@ -8,8 +8,8 @@ const Header = ({
   children,
 }) => {
   return (
-    <header id="header" className="fixed-top d-flex align-items-cente">
-      <div className="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+    <header id="header" className="fixed-top d-flex align-items-center ">
+      <div className="container-fluid container-xl d-flex flex-wrap align-items-center justify-content-center justify-content-lg-between">
         <Link to="/">
           <h1 className="logo me-auto me-lg-0">BarTable</h1>
         </Link>
