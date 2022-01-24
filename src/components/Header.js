@@ -9,12 +9,16 @@ const Header = ({
 }) => {
   return (
     <header id="header" className="fixed-top d-flex align-items-center ">
-      <div className="container-fluid container-xl d-flex flex-wrap align-items-center justify-content-center justify-content-lg-between">
-        <Link to="/">
-          <h1 className="logo me-auto me-lg-0">BarTable</h1>
-        </Link>
-        <div className="row">
-          <div className="col">{children}</div>
+      <div className="container">
+        <div className="d-flex align-items-center justify-content-between flex-column flex-md-row">
+          <div className="col col-md-3">
+            <Link to="/">
+              <h1 className="logo me-auto me-lg-0">BarTable</h1>
+            </Link>
+          </div>
+          <div className="col col-md-8">
+            {children}
+          </div>
         </div>
       </div>
     </header>

@@ -39,9 +39,9 @@ const Form = () => {
   };
 
   return (
-    <form onSubmit={submitForm}>
-      <div className="row">
-        <div className="col">
+    <form className="row mt-3 mt-md-0 g-2 gy-md-0 text-center" onSubmit={submitForm}>
+
+        <div className="col-sm-6 col-md-4 col-lg-4">
           <input
             className="input-form form-control form-control-dark me-2"
             type="text"
@@ -52,7 +52,7 @@ const Form = () => {
             onChange={updateSearchValues}
           />
         </div>
-        <div className="col">
+        <div className="col-sm-6 col-md-4 col-lg-5">
           <input
             className="input-form form-control form-control-dark me-2"
             type="text"
@@ -62,12 +62,12 @@ const Form = () => {
             onChange={updateSearchValues}
           />
         </div>
-        <div className="col">
+        <div className="col text-lg-end">
           <button className="btn-form animated fadeInUp scrollto" type="submit">
             Search
           </button>
         </div>
-      </div>
+
     </form>
   );
 };

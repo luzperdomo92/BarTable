@@ -8,7 +8,7 @@ const WelcomePage = () => {
         <div className="row">
           <div className="col-lg-8">
             <h1>What <span>Cocktail</span> Would you like drink today ?</h1>
-            <div className="py-5">
+            <div className="py-4">
               <Form/>
             </div>
           </div>

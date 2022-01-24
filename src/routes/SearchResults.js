@@ -19,7 +19,7 @@ const SearchResults = () => {
   return (
     <section id="results" className="results">
       <div className="container">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center pt-5 mt-5 mt-sm-0 pt-md-0">
           {cocktailsList &&
             cocktailsList.map((cocktail) => (
               <CocktailCard key={cocktail.idDrink} cocktailsList={cocktail} />

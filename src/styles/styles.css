@@ -26,7 +26,7 @@ h6 {
 }
 /* Section General styles */
 section {
-  padding: 60px 0;
+  padding: 60px 0 30px 0;
   overflow: hidden;
 }
 /*.section-bg {
@@ -148,8 +148,8 @@ section {
 }
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 42px;
+    line-height: 48px;
   }
 }
 
@@ -258,7 +258,7 @@ section {
 }
 
 .card-info h1 {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 700;
   text-shadow: rgb(0 0 0 / 50%) 0 10px 10px;
 }
