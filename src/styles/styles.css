@@ -24,7 +24,10 @@ h5,
 h6 {
   font-family: "Playfair Display", serif;
 }
-
+/*utilities*/
+.font-highlight {
+  color: #cda45e;
+}
 /*Header*/
 #header {
   background: rgba(12, 11, 9, 1);
@@ -270,7 +273,9 @@ h6 {
   box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
     -20px -1px 3px -4px rgba(205, 164, 94, 0);
 }
-
+.cocktail-especification {
+  background: rgba(0, 0, 0, 0.6);
+}
 /*Footer*/
 .footer {
   background: rgba(12, 11, 9, 1);

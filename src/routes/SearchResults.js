@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import CocktailCard from "../components/CocktailCard";
-import { getcocktails } from "../api/cocktaildb.js";
+import { getCocktails } from "../api/cocktaildb.js";
 import { useSearchParams } from "react-router-dom";
 
 const SearchResults = () => {
@@ -10,7 +10,7 @@ const SearchResults = () => {
   useEffect(() => {
     const currentSearchParams = Object.fromEntries([...cocktailSearchParams]);
     const getSearchResults = async () => {
-      const listCocktails = await getcocktails(currentSearchParams);
+      const listCocktails = await getCocktails(currentSearchParams);
       setCocktailsList(listCocktails);
     };
     getSearchResults();

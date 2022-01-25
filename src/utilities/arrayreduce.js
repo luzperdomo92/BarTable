@@ -7,9 +7,9 @@ export const getIngredientsAndMeasure = (cocktailDetails) => {
     if (ingredient) {
       ingredients.push({
         name: ingredient,
-        measure: cocktail[`strMeasure${i}`]
-      })
+        measure: cocktail[`strMeasure${i}`],
+      });
     }
   }
   return ingredients;
-}
+};
