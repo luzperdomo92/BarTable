@@ -49,12 +49,13 @@ const SeachCocktailByIngredient = async (cocktailIngredient) => {
   if (cocktailIngredient !== "" && cocktailIngredient !== null) {
     const params = {
       i: cocktailIngredient,
-      c: "Cocktail",
+      // c: "Cocktail",
     };
     try {
       const response = await axios.get(`${URL_COCKTAIL_API}filter.php`, {
         params: params,
       });
+
       return response.data.drinks;
     } catch (error) {
       console.log(error);

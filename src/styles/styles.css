@@ -151,7 +151,7 @@ h6 {
   background-size: cover;
   position: relative;
   padding: 100px 0 30px 0;
-  min-height: 72vh;
+  min-height: 80vh;
   overflow: hidden;
 }
 .render-section:before {
@@ -217,7 +217,7 @@ h6 {
   background-position: center;
   background-size: cover;
   transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95),
-    opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    opacity 2s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
 .card-info * {
@@ -231,7 +231,7 @@ h6 {
   bottom: 0;
   color: #fff;
   transform: translateY(10%);
-  transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: 0.4s 1s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .card-info:after {
   content: "";
@@ -256,6 +256,19 @@ h6 {
   font-size: 32px;
   font-weight: 700;
   text-shadow: rgb(0 0 0 / 50%) 0 10px 10px;
+}
+
+/* Details Section */
+.details {
+  position: relative;
+}
+
+.cocktail-img {
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    -20px -1px 3px -4px rgba(205, 164, 94, 0);
 }
 
 /*Footer*/

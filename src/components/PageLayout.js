@@ -11,7 +11,7 @@ const Layout = () => {
         <Form />
       </Header>
 
-      <section className="container-xl render-section">
+      <section className="container-xxl render-section">
         <div className="container">
           <Outlet />
         </div>

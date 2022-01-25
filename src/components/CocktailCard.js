@@ -12,7 +12,7 @@ const CocktailCard = ({ cocktailsList }) => {
             className="card-bg"
             style={{ backgroundImage: `url(${backGroundImgUrl})` }}
           ></div>
-          <div className=" card-info">
+          <div className="card-info">
             <h1>{cocktailsList.strDrink}</h1>
           </div>
         </Link>
