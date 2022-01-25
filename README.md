@@ -7,15 +7,19 @@ Open ([BarTable](https://epic-jackson-bf2a41.netlify.app/)) to view it in your b
 
 
 ## Develoment mode
-If you want run the app in the development mode ```.\```
+If you want run the app in the development mode ```./```
 
 ### Requirements 
 - Node.js grather or equal to v.17
 
+
 Clone it !
+
 ``` git@github.com:luzperdomo92/BarTable-FinalProject.git ```
 
 Go into the project directory and run the command:
+
 ``` npm star ```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
