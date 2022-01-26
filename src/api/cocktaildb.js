@@ -1,5 +1,7 @@
 import axios from "axios";
 
+const URL_COCKTAIL_API = "https://www.thecocktaildb.com/api/json/v1/1/";
+
 export const getCocktails = async (cocktailSearch) => {
   const { name, ingredient } = cocktailSearch;
 
@@ -34,7 +36,7 @@ const searchCocktailByName = async (cocktailName) => {
     };
     try {
       const response = await axios.get(
-        `${process.env.REACT_APP_URL_COCKTAIL_API}search.php`,
+        `${URL_COCKTAIL_API}search.php`,
         {
           params: params,
         }
@@ -53,12 +55,11 @@ const seachCocktailByIngredient = async (cocktailIngredient) => {
     };
     try {
       const response = await axios.get(
-        `${process.env.REACT_APP_URL_COCKTAIL_API}filter.php`,
+        `${URL_COCKTAIL_API}filter.php`,
         {
           params: params,
         }
       );
-
       return response.data.drinks;
     } catch (error) {
       console.log(error);
@@ -73,7 +74,7 @@ export const showCocktailDetails = async (id) => {
 
   try {
     const response = await axios.get(
-      `${process.env.REACT_APP_URL_COCKTAIL_API}lookup.php`,
+      `${URL_COCKTAIL_API}lookup.php`,
       {
         params: params,
       }

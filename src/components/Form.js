@@ -33,8 +33,6 @@ const Form = () => {
         pathname: "/search",
         search: `?${createSearchParams(inputSearchCocktail)}`,
       });
-    } else {
-      alert("todos los campos son obligatorios");
     }
   };
 
