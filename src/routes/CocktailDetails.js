@@ -30,7 +30,7 @@ const CocktailDetails = () => {
   }, [cocktailDetails]);
 
   return (
-    <div className="details d-flex flex-column flex-sm-row row-cols-sm-2 py-4">
+    <div className="details d-flex flex-column flex-sm-row row-cols-sm-2 py-4 mt-5 mt-sm-0 pt-md-0">
       {cocktailDetails ? (
         <Fragment>
           <div className="col col-sm-5 px-2 mb-4 mb-sm-0">

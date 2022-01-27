@@ -12,7 +12,7 @@ const Layout = () => {
       </Header>
 
       <section className="container-xxl render-section">
-        <div className="container">
+        <div className="container pt-5 pt-md-3">
           <Outlet />
         </div>
       </section>

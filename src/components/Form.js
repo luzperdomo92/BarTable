@@ -38,7 +38,7 @@ const Form = () => {
 
   return (
     <form
-      className="row mt-3 mt-md-0 g-2 gy-md-0 text-center"
+      className="row mt-3 mt-md-0 g-2 gy-md-0 text-center justify-content-md-end"
       onSubmit={submitForm}
     >
       <div className="col-sm-6 col-md-4 col-lg-4">

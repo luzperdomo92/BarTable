@@ -12,7 +12,7 @@ const NoResultFound = ({ currentSearchParams }) => {
   }
   return (
     <div className="d-flex justify-content-center">
-      <div className="error-search col p-md-3">
+      <div className="error-search col p-2 p-md-3">
         <h3>Hmmm...</h3>
         <h3>{`We Couldn't find any results for "${menssage}"`}</h3>
         <p className="error-menssage">Search help</p>

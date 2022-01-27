@@ -5,7 +5,7 @@ import { getCocktails } from "../api/cocktaildb.js";
 import { useSearchParams } from "react-router-dom";
 
 const SearchResults = () => {
-  const [cocktailsList, setCocktailsList] = useState(null);
+  const [cocktailsList, setCocktailsList] = useState([]);
   const [cocktailSearchParams] = useSearchParams();
   const currentSearchParams = Object.fromEntries([...cocktailSearchParams]);
 
@@ -18,7 +18,7 @@ const SearchResults = () => {
   }, [cocktailSearchParams]);
 
   return (
-    <div className="row justify-content-center pt-5 mt-5 mt-sm-0 pt-md-0">
+    <div className="row justify-content-center pt-3 mt-5 mt-sm-0 pt-md-0">
       {cocktailsList !== null
       ? cocktailsList && cocktailsList.map((cocktail) => (
           <CocktailCard key={cocktail.idDrink} cocktailsList={cocktail} />
