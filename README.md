@@ -3,7 +3,7 @@ BarTable is a web App that allows you to search for any kind of cocktail, you ca
 
 ## Netlify
 The Bartable App is Hosted on Nethify
-Open ([BarTable](https://epic-jackson-bf2a41.netlify.app/)) to view it in your browser.
+Open ([BarTable](https://bartable.netlify.app/)) to view it in your browser.
 
 
 ## Develoment mode
